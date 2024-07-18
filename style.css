@@ -74,10 +74,10 @@
 .left {
     /* border-right: dotted 1px black; */
     height: 60vh;
-    width: 58%;
+    width: 70%;
     padding: 2px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     column-gap: 2px;
 }
@@ -85,7 +85,7 @@
 .right {
     /* border: dotted rgb(21, 255, 0); */
     height: 60vh;
-    width: 42%;
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -94,7 +94,7 @@
 }
 
 .jobs {
-    border: dashed yellow;
+    border-bottom: dashed rgb(5, 5, 5);
     display: flex;
     justify-content: space-between;
     text-align: right;
@@ -103,24 +103,24 @@
 .titleCompany {
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5px;
-    border: solid black;
+    /* border: solid black; */
 }
 
 .years {
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
     margin: 5px;
-    border: solid black;
+    /* border: solid black; */
 }
 
 .jobDesc {
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5px;
-    border: solid black;
+    /* border: solid black; */
 }
 
 .jobBox {
-    border: solid black;
+    /* border: solid black; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -131,13 +131,13 @@
 .skillsBox {
     /* border: solid black; */
     /* border-radius: 15px; */
-    background-color: rgb(189, 189, 189);
-    color: rgb(0, 0, 0);
+    background-color: rgb(189, 76, 76);
+    /* color: rgb(0, 0, 0); */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
-    padding:5px;
+    justify-content:flex-start;
+
 }
 
 .skillArea {
@@ -153,14 +153,23 @@ h1 {
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 5px;
+    text-align:left;
     /* border-width: 80%; */
 }
-
+#exp{
+    color: #ffffff;
+    background-color: slategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    text-align:left;
+    /* border-width: 80%; */
+}
 h3 {
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: slategray;
     padding: 10px;
+    text-align: left;
 }
 
 #bigFont {
@@ -185,16 +194,21 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: slategray;
     padding: 10px;
+    text-align:right
 }
 
 .schoolBox {
-    border: solid rgb(0, 0, 0);
+    border-bottom: dashed rgb(230, 224, 224);
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
+    /* align-items: left; */
+    /* align-content:stretch; */
     justify-content: space-between;
-    text-align: left;
-    margin: 5px;
+    /* justify-items: left; */
+    /* text-align: left; */
+    /* margin: 2px; */
+    padding:10px;
 }
 
 .material-symbols-outlined {
@@ -203,4 +217,12 @@ h2 {
   'wght' 400,
   'GRAD' 0,
   'opsz' 20
+}
+p {
+    /* border:solid black; */
+    padding-left:5px;
+    padding-right: 5px;
+}
+.bar{
+
 }
