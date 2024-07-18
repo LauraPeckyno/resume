@@ -2,7 +2,462 @@
     /* border: solid red; */
     /* padding: 10px; */
 }
+/* MOBILE FORMAT */
+@media screen and (min-width: 320px) {
+    .header {
+        /* border: solid green; */
+        background-color: slategray;
+        display: block;
+    }
+    
+    .name {
+        /* border: solid rgb(123, 67, 255); */
+        width:100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgb(13, 26, 39);
+        padding:15px;
+    }
+    
+    .contact {
+        /* border: dotted rgb(248, 18, 1); */
+        background-color: rgb(218, 218, 218);
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        color:rgb(0, 0, 0);
+        display: block;
+        align-content: left;
+        padding:15px;
+    }
+    
+    .addressBlock{
+        border:dotted rgb(13, 26, 39);
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width:100%;
+        align-content: center;
+        padding:5px;
+    }
+    
+    .address {
+        /* border: solid rgb(187, 23, 50); */
+        margin: 2px;
+        /* height: 24px; */
+    }
+    .iconblock{
+        display:flex;
+        /* border:solid black; */
+        align-items:center
+    
+    }
+    .icon{
+        /* border: solid rgb(187, 23, 50); */
+        margin: 5px;
+        height: 24px;
+    }
+    .summary {
+        /* border: solid rgb(187, 23, 50); */
+        margin-left: 15px;
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    .experienceContainer {
+        /* border: dotted orange; */
+        height: 80vh;
+        display: block;
+        /* justify-content: space-between; */
+        column-gap: 5px;
+    }
+    
+    .left {
+        /* border-right: dotted 1px black; */
+        width: 100%;
+        padding: 2px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        column-gap: 2px;
+    }
+    
+    .right {
+        /* border: dotted rgb(21, 255, 0); */
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 2px;
+    
+    }
+    
+    .jobs {
+        border-bottom: dashed rgb(5, 5, 5);
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+    }
+    
+    .titleCompany {
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 5px;
+        /* border: solid black; */
+    }
+    
+    .years {
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 14px;
+        margin: 5px;
+        /* border: solid black; */
+    }
+    
+    .jobDesc {
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 5px;
+        /* border: solid black; */
+    }
+    
+    .jobBox {
+        /* border: solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2px;
+    }
+    
+    .skillsBox {
+        /* border: solid black; */
+        /* border-radius: 15px; */
+        background-color: rgb(189, 76, 76);
+        /* color: rgb(0, 0, 0); */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:flex-start;
+    
+    }
+    
+    .skillArea {
+        /* border: dashed rgb(255, 0, 255); */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    h1 {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 5px;
+        text-align:left;
+        /* border-width: 80%; */
+    }
+    #exp{
+        color: #ffffff;
+        background-color: slategray;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 5px;
+        text-align:left;
+        /* border-width: 80%; */
+    }
+    h3 {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: slategray;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    #bigFont {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 34px;
+    }
+    
+    #smallerFont {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+    }
+    #top{
+        color: #ffffff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(13, 26, 39);
+        padding: 10px;
+    }
+    h2 {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: slategray;
+        padding: 10px;
+        text-align:right
+    }
+    
+    .schoolBox {
+        border-bottom: dashed rgb(230, 224, 224);
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        /* align-items: left; */
+        /* align-content:stretch; */
+        justify-content: space-between;
+        /* justify-items: left; */
+        /* text-align: left; */
+        /* margin: 2px; */
+        padding:10px;
+    }
+    
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 20
+    }
+    p {
+        /* border:solid black; */
+        padding-left:5px;
+        padding-right: 5px;
+    }
+    .bar{
+    
+    }
 
+  }
+
+/* MID RANGE FORMAT */
+
+@media screen and (min-width: 768px) {
+    .header {
+        /* border: solid green; */
+        background-color: slategray;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .name {
+        /* border: solid rgb(123, 67, 255); */
+        width:100%;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgb(13, 26, 39);
+        padding:15px;
+    }
+    
+    .contact {
+        /* border: dotted rgb(248, 18, 1); */
+        background-color: rgb(218, 218, 218);
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        color:rgb(0, 0, 0);
+        display: flex;
+        align-content: center;
+        padding:15px;
+    }
+    
+    .addressBlock{
+        border:dotted rgb(13, 26, 39);
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:40%;
+        align-content: center;
+        padding:5px;
+    }
+    
+    .address {
+        /* border: solid rgb(187, 23, 50); */
+        margin: 2px;
+        height: 24px;
+    }
+    .iconblock{
+        display:flex;
+        /* border:solid black; */
+        align-items:center
+    
+    }
+    .icon{
+        /* border: solid rgb(187, 23, 50); */
+        margin: 5px;
+        height: 24px;
+    }
+    .summary {
+        /* border: solid rgb(187, 23, 50); */
+        margin-left: 15px;
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    .experienceContainer {
+        /* border: dotted orange; */
+        height: 80vh;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 5px;
+    }
+    
+    .left {
+        /* border-right: dotted 1px black; */
+        height: 60vh;
+        width: 70%;
+        padding: 2px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        column-gap: 2px;
+    }
+    
+    .right {
+        /* border: dotted rgb(21, 255, 0); */
+        height: 60vh;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 2px;
+    
+    }
+    
+    .jobs {
+        border-bottom: dashed rgb(5, 5, 5);
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+    }
+    
+    .titleCompany {
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 5px;
+        /* border: solid black; */
+    }
+    
+    .years {
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 14px;
+        margin: 5px;
+        /* border: solid black; */
+    }
+    
+    .jobDesc {
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 5px;
+        /* border: solid black; */
+    }
+    
+    .jobBox {
+        /* border: solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2px;
+    }
+    
+    .skillsBox {
+        /* border: solid black; */
+        /* border-radius: 15px; */
+        background-color: rgb(189, 76, 76);
+        /* color: rgb(0, 0, 0); */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:flex-start;
+    
+    }
+    
+    .skillArea {
+        /* border: dashed rgb(255, 0, 255); */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    h1 {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 5px;
+        text-align:left;
+        /* border-width: 80%; */
+    }
+    #exp{
+        color: #ffffff;
+        background-color: slategray;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 5px;
+        text-align:left;
+        /* border-width: 80%; */
+    }
+    h3 {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: slategray;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    #bigFont {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 34px;
+    }
+    
+    #smallerFont {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+    }
+    #top{
+        color: #ffffff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(13, 26, 39);
+        padding: 10px;
+    }
+    h2 {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: slategray;
+        padding: 10px;
+        text-align:right
+    }
+    
+    .schoolBox {
+        border-bottom: dashed rgb(230, 224, 224);
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        /* align-items: left; */
+        /* align-content:stretch; */
+        justify-content: space-between;
+        /* justify-items: left; */
+        /* text-align: left; */
+        /* margin: 2px; */
+        padding:10px;
+    }
+    
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 20
+    }
+    p {
+        /* border:solid black; */
+        padding-left:5px;
+        padding-right: 5px;
+    }
+    .bar{
+    
+    }
+  }
+
+/* DESKTOP FORMAT */
+@media screen and (min-width: 1200px) {
 .header {
     /* border: solid green; */
     background-color: slategray;
@@ -224,5 +679,7 @@ p {
     padding-right: 5px;
 }
 .bar{
+
+}
 
 }
