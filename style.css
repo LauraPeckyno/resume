@@ -6,7 +6,7 @@
 @media screen and (min-width: 320px) {
     .header {
         /* border: solid green; */
-        background-color: slategray;
+        background-color: rgb(13, 26, 39);
         display: block;
     }
     
@@ -21,7 +21,7 @@
     
     .contact {
         /* border: dotted rgb(248, 18, 1); */
-        background-color: rgb(218, 218, 218);
+        background-color: rgb(191, 192, 192);
         font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 12px;
         color:rgb(0, 0, 0);
@@ -31,7 +31,7 @@
     }
     
     .addressBlock{
-        border:dotted rgb(13, 26, 39);
+        border:dotted rgb(79, 93, 117);
         display:flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -93,7 +93,7 @@
     }
     
     .jobs {
-        border-bottom: dashed rgb(5, 5, 5);
+        border-bottom: dashed rgb(79, 93, 117);
         display: flex;
         justify-content: space-between;
         text-align: right;
@@ -130,7 +130,7 @@
     .skillsBox {
         /* border: solid black; */
         /* border-radius: 15px; */
-        background-color: rgb(239, 131, 84);
+        background-color: rgb(217, 108, 76);
         /* color: rgb(0, 0, 0); */
         display: flex;
         flex-wrap: wrap;
@@ -157,7 +157,7 @@
     }
     #exp{
         color: #ffffff;
-        background-color: slategray;
+        background-color: rgb(79, 93, 117);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 5px;
         text-align:left;
@@ -166,7 +166,7 @@
     h3 {
         color: #ffffff;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background-color: slategray;
+        background-color: rgb(79, 93, 117);
         padding: 10px;
         text-align: left;
     }
@@ -185,19 +185,19 @@
     #top{
         color: #ffffff;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: rgb(13, 26, 39);
+        background-color: rgb(79, 93, 117);
         padding: 10px;
     }
     h2 {
         color: #ffffff;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background-color: rgb(191, 192, 192);
+        background-color: rgb(79, 93, 117);
         padding: 10px;
         text-align:right
     }
     
     .schoolBox {
-        border-bottom: dashed rgb(230, 224, 224);
+        border-bottom: dashed white;
         display: flex;
         /* flex-wrap: wrap; */
         flex-direction: row;
@@ -233,7 +233,7 @@
 @media screen and (min-width: 768px) {
     .header {
         /* border: solid green; */
-        background-color: slategray;
+        background-color: rgb(13, 26, 39);
         display: flex;
         justify-content: space-between;
     }
@@ -249,7 +249,7 @@
     
     .contact {
         /* border: dotted rgb(248, 18, 1); */
-        background-color: rgb(218, 218, 218);
+        background-color: rgb(191, 192, 192);
         font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 12px;
         color:rgb(0, 0, 0);
@@ -276,7 +276,7 @@
     .iconblock{
         display:flex;
         /* border:solid black; */
-        align-items:center
+        align-items:center;
     
     }
     .icon{
@@ -359,7 +359,7 @@
     .skillsBox {
         /* border: solid black; */
         /* border-radius: 15px; */
-        background-color: rgb(189, 76, 76);
+        background-color: rgb(217, 108, 76);
         /* color: rgb(0, 0, 0); */
         display: flex;
         flex-wrap: wrap;
@@ -386,7 +386,7 @@
     }
     #exp{
         color: #ffffff;
-        background-color: slategray;
+        background-color: rgb(79, 93, 117);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 5px;
         text-align:left;
@@ -395,7 +395,7 @@
     h3 {
         color: #ffffff;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background-color: slategray;
+        background-color: rgb(79, 93, 117);
         padding: 10px;
         text-align: left;
     }
@@ -420,13 +420,13 @@
     h2 {
         color: #ffffff;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background-color: slategray;
+        background-color: rgb(79, 93, 117);
         padding: 10px;
         text-align:right
     }
     
     .schoolBox {
-        border-bottom: dashed rgb(230, 224, 224);
+        border-bottom: dashed white;
         display: flex;
         /* flex-wrap: wrap; */
         flex-direction: row;
@@ -460,7 +460,8 @@
 @media screen and (min-width: 1200px) {
 .header {
     /* border: solid green; */
-    background-color: slategray;
+    background-color: rgb(79, 93, 117);
+    color:white;
     display: flex;
     justify-content: space-between;
 }
@@ -476,7 +477,7 @@
 
 .contact {
     /* border: dotted rgb(248, 18, 1); */
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(191, 191,);
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
     color:rgb(0, 0, 0);
@@ -503,7 +504,7 @@
 .iconblock{
     display:flex;
     /* border:solid black; */
-    align-items:center
+    align-items:center;
 
 }
 .icon{
@@ -549,7 +550,7 @@
 }
 
 .jobs {
-    border-bottom: dashed rgb(5, 5, 5);
+    border-bottom: dashed rgb(13, 26, 39);
     display: flex;
     justify-content: space-between;
     text-align: right;
@@ -586,7 +587,7 @@
 .skillsBox {
     /* border: solid black; */
     /* border-radius: 15px; */
-    background-color: rgb(189, 76, 76);
+    background-color: rgb(217, 108, 76);
     /* color: rgb(0, 0, 0); */
     display: flex;
     flex-wrap: wrap;
@@ -613,7 +614,7 @@ h1 {
 }
 #exp{
     color: #ffffff;
-    background-color: slategray;
+    background-color: rgb(79, 93, 117);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 5px;
     text-align:left;
@@ -622,7 +623,7 @@ h1 {
 h3 {
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: slategray;
+    background-color: rgb(79, 93, 117);
     padding: 10px;
     text-align: left;
 }
@@ -647,13 +648,13 @@ h3 {
 h2 {
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: slategray;
+    background-color: rgb(79, 93, 117);
     padding: 10px;
     text-align:right
 }
 
 .schoolBox {
-    border-bottom: dashed rgb(230, 224, 224);
+    border-bottom: dashed white;
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: row;
