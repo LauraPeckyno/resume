@@ -158,6 +158,25 @@
         text-align: left;
     }
 
+    h4 {
+        color: #ffffff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #ec0b43;
+        padding: 10px;
+        text-align: left;
+        width: 0;
+        animation: typing 2s forwards;
+    }
+          
+        @keyframes typing {
+            0% {
+              width: 0;
+            }
+            100% {
+              width: 100%;
+            }
+          }
+
     #bigFont {
         color: #ffffff;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -313,3 +332,4 @@
     font-size: 14px;
     color:rgb(13, 26, 39);
 }
+      
